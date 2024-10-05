@@ -1,10 +1,10 @@
 //การเปิด ปิดสวิทซ์ ผ่าน WiFi โดยใช้ MQTT เพื่อการใช้การอบรม บ้านสัตว์อัจฉริยะด้วยเทคโนโลยี IoT พัฒนาจาก UTCC Makerspace//
 #include <WiFi.h>
-#include <PubSubClient.h>
+#include <PubSubClient.h> // ต้องลง Library เพิ่มของ PubSubClient
 
 // WiFi credentials
-const char* ssid = "...............";
-const char* password = ".............";
+const char* ssid = "...............";//ชื่อของ WiFi ที่ต้องการเชื่อมต่อ
+const char* password = ".............";// รหัสของ WiFi
 
 // MQTT broker
 const char* mqtt_server = ".............";//มีหลายค่ายที่ให้บริการbroker.hivemq.com,broker.mqtt.cool,test.mosquitto.org
