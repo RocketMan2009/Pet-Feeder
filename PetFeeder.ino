@@ -11,7 +11,7 @@ const char* mqtt_server = ".............";//มีหลายค่ายที
 const char* topic = "UTCC/Makerspace/Feeder1";//ตั้ง topic ให้แตกต่างกัน
 
 // Pin to control (e.g., an LED)
-const int ledPin = 2;
+const int ledPin = 2;//เลือก pin ที่ต้องการให้คำสั่ง มอเตอร์ทำงาน สามารถดูได้จาก datasheet ของ ESP32
 
 // Initialize WiFi and MQTT client
 WiFiClient espClient;
@@ -50,7 +50,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
   if (message == "ON") {
     digitalWrite(ledPin, HIGH);
-    delay(5000);
+    delay(5000);//ตั้งให้เหมาะสมกับระยะเวลาของมอเตอร์ทำงานให้อาหารสัตว์เลี้ยง
     digitalWrite(ledPin, LOW);
   } else if (message == "OFF") {
     digitalWrite(ledPin, LOW);
