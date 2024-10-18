@@ -1,3 +1,4 @@
+//โปรแกรมเปิด ปิด หลอดไฟ LED ด้วย mqtt ผ่าน ESP32 พัฒนาขึ้นเพื่อใช้ในการอบรม นักเรียน นักศึกษา โดย ดร วรภัทร กอแก้ว จาก UTCC Makerspace
 #include <WiFi.h>
 #include <PubSubClient.h>
 #include <WiFiManager.h> 
