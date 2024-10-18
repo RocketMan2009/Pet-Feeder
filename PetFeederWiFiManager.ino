@@ -4,7 +4,6 @@
 #include <WiFiManager.h> 
 
 // MQTT broker
-// MQTT broker
 const char* mqtt_server = ".............";//มีหลายค่ายที่ให้บริการbroker.hivemq.com,broker.mqtt.cool,test.mosquitto.org
 const char* topic = "UTCC/Makerspace/Feeder1";//ตั้ง topic ให้แตกต่างกัน
 
