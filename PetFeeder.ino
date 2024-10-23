@@ -1,4 +1,4 @@
-//การเปิด ปิดสวิทซ์ ผ่าน WiFi โดยใช้ MQTT เพื่อการใช้การอบรม บ้านสัตว์อัจฉริยะด้วยเทคโนโลยี IoT พัฒนาจาก UTCC Makerspace//
+//การเปิด ปิดสวิทซ์ ผ่าน WiFi โดยใช้ MQTT เพื่อการใช้การอบรม บ้านสัตว์อัจฉริยะด้วยเทคโนโลยี IoT พัฒนาจาก ดร วรภัทร กอแก้ว UTCC Makerspace//
 #include <WiFi.h>
 #include <PubSubClient.h> // ต้องลง Library เพิ่มของ PubSubClient
 
