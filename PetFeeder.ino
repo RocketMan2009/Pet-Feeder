@@ -50,8 +50,8 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
   if (message == "ON") {
     digitalWrite(ledPin, HIGH);
-    delay(5000);//ตั้งให้เหมาะสมกับระยะเวลาของมอเตอร์ทำงานให้อาหารสัตว์เลี้ยง
-    digitalWrite(ledPin, LOW);
+    //delay(5000);//ตั้งให้เหมาะสมกับระยะเวลาของมอเตอร์ทำงานให้อาหารสัตว์เลี้ยง
+    //digitalWrite(ledPin, LOW);
   } else if (message == "OFF") {
     digitalWrite(ledPin, LOW);
   }
